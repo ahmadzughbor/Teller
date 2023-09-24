@@ -9,7 +9,7 @@
 
     </div>
     <div class="container">
-        <h1>admin processess </h1>
+        <h1>admin  </h1>
         <form action="">
             <div class="form-inline">
                 <div class="form-group">

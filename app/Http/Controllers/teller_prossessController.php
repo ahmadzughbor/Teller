@@ -84,7 +84,7 @@ class teller_prossessController extends Controller
     {
         $request->validate([
             'userSelect' => 'required',
-            'amount' => 'required|numeric',
+            'amount' => 'required|numeric|min:1',
             'tax_value' => 'required|numeric|min:1.5|max:100',
         ]);
         try {

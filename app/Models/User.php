@@ -45,11 +45,11 @@ class User extends Authenticatable
         'password' => 'hashed',
     ];
 
-    public function  wallet (){
-        
+    public function  wallet()
+    {
+
         return $this->hasOne(wallet::class);
     }
-
 
     
 }

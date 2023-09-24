@@ -59,7 +59,7 @@ class teller_processessRepository implements teller_processessInterface
 
     public function store(array $attributes)
     {
-        return DB::select('CALL processTransaction(?, ?, ?)', [$attributes['userSelect'], $attributes['amount'], $attributes['tax_value']]);
+        return DB::select('CALL processTransaction2(?, ?, ?)', [$attributes['userSelect'], $attributes['amount'], $attributes['tax_value']]);
     }
 
    

@@ -280,8 +280,8 @@
                 }
             },
             columns: [{
-                    data: 'id',
-                    name: 'id'
+                    data: 'DT_RowIndex',
+                    name: 'DT_RowIndex'
                 },
                 {
                     data: 'user',
